@@ -1,0 +1,48 @@
+print('欢迎开启亮亮计算机')
+print('请输出算法')
+a = input()
+if a == '+':
+    print('请输出加数')
+    b = input()
+    print('请输出另一个加数')
+    c = input()
+    b = int(b)
+    c = int(c)
+    d = b + c
+    print(d)
+if a == '-':
+    print('请输出减数')
+    e = input()
+    print('请输出被减数')
+    f = input()
+    e = int(e)
+    f = int(f)
+    g = f - e
+    print(g)
+if a == '*':
+    print('请输出乘数')
+    h = input()
+    print('请输出另一个乘数')
+    i = input()
+    h = int(h)
+    i = int(i)
+    j = h * i
+    print(j)
+if a == '//':
+    print('请输出除数')
+    k = input()
+    print('请输出被除数')
+    l = input()
+    k = int(k)
+    l = int(l)
+    m = l // k
+    print(m)
+if a == '%':
+    print('请输出除数')
+    n = input()
+    print('请输出被除数')
+    o = input()
+    n = int(n)
+    o = int(o)
+    p = n % o
+    print(p)
